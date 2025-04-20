@@ -54,3 +54,224 @@ Input validation: Ensuring that users enter valid numeric values and handling in
 CSV file handling: Properly reading and writing data to avoid formatting issues or data loss.
 
 User-friendly CLI: Designing a simple and clear console menu for smooth user experience.
+## Test Cases and Outputs 
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+
+Choose your option:
+
+1
+
+Enter amount: 15000
+
+Income added.
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+
+Choose your option:
+
+2
+
+Enter amount: 13500
+
+Expense added.
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+    
+Choose your option:
+
+8
+
+--- Transaction List ---
+
+0. Income - 15000.00
+1. Expense - 13500.00
+   
+Enter the number of the transaction to edit: 1
+
+Enter new amount: 18300
+
+Transaction updated.
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+
+Choose your option:
+
+3
+
+Enter your savings goal: 40000
+
+Savings goal set to 40000.0
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+
+Choose your option:
+
+9
+
+--- Transaction List ---
+
+0. Income - 15000.00
+1. Expense - 18300.00
+
+Enter the number of the transaction to delete: 1
+
+Transaction deleted.
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+
+Choose your option:
+
+2
+
+Enter amount: 22000
+
+Expense added.
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+Choose your option:
+
+4
+
+--- Budget Summary ---
+
+Total Income: 15000.0
+
+Total Expenses: 22000.0
+
+Current Savings: -7000.0
+
+Savings Goal: 40000.0
+
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+
+Choose your option:
+
+8
+
+--- Transaction List ---
+
+0. Income - 15000.00
+
+1. Expense - 22000.00
+
+Enter the number of the transaction to edit: 1
+
+Enter new amount: 13000
+
+Transaction updated.
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+
+Choose your option:
+
+4
+
+--- Budget Summary ---
+
+Total Income: 15000.0
+
+Total Expenses: 13000.0
+
+Current Savings: 2000.0
+
+Savings Goal: 40000.0
+
+
+ --- Personal Budget Planner ---
+1. Add Income
+2. Add Expense
+3. Set Saving Goal
+4. View Summary
+5. Export Data to CSV
+6. Import Data from CSV
+7. Exit
+8. Edit Transaction
+9. Delete Transaction
+
+Choose your option:
+
+7
+
+Goodbye!
